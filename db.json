@@ -1,0 +1,35 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "productName": "Produk 1",
+            "buyingPrice": 5000,
+            "sellingPrice": 7000,
+            "descProduct": "Enak pol",
+            "image": "haha.png"
+        },
+        {
+            "id": 2,
+            "productName": "Produk 2",
+            "buyingPrice": 5000,
+            "sellingPrice": 7000,
+            "descProduct": "Enak pol",
+            "image": "haha.png"
+        },
+        {
+            "id": 3,
+            "productName": "Produk 3",
+            "buyingPrice": 5000,
+            "sellingPrice": 7000,
+            "descProduct": "Enak pol",
+            "image": "haha.png"
+        }
+    ], 
+    "users": [
+        {
+            "id": 1,
+            "username": "admin",
+            "password": "admin"
+        }
+    ]
+}
