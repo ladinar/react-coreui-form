@@ -73,14 +73,13 @@ const Person = () => {
     if (form.checkValidity() === false) {
       event.preventDefault()
       event.stopPropagation()
-    } else {
-      await supabase
-        .from('person')
-        .insert([formData])
-        .then(({ success }) => {
-          window.location.reload()
-        })
     }
+    await supabase
+      .from('person')
+      .insert([formData])
+      .then(({ success }) => {
+        window.location.reload()
+      })
     setValidated(true)
     console.log(event)
   }

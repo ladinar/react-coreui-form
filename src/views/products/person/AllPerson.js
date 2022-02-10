@@ -88,7 +88,14 @@ const AllPerson = () => {
                               <small>
                                 Domisili : {data.alamat}
                                 <br />
-                                Instagram : @{data.ig_acc}
+                                Instagram :
+                                <a
+                                  href={'https://www.instagram.com/' + data.ig_acc}
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  @{data.ig_acc}
+                                </a>
                                 <br />
                                 Hobi : {data.hobi.join(',')}
                                 <br />
